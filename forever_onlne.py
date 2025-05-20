@@ -1,7 +1,8 @@
 import asyncio
 from telethon import TelegramClient
 from telethon.tl.functions.account import UpdateStatusRequest
-
+api_id = api_id
+api_hash = api_hash
 session_name = 'online_session'  # сохраняется в этом файле
 
 client = TelegramClient(session_name, api_id, api_hash)
